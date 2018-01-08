@@ -137,7 +137,31 @@ manually creating a skeleton.**
 
 # 3- The Local Library website
 
+In this series of articles:
 
+  * Use Express Application Generator to create a skelton website and an application
+  * Start and Stop the Node server
+  * Use a db to store app data
+  * Create routes for requesting different information, and templates ('views') to render
+    data as HTML to be displayed later.
+  * Work with forms
+  * Deploy application to production
+
+###  The Lcoal Library Website
+
+_LocalLibrary_ is the name of the website we'll create and evolve over the course of the tut. The purpose of the site
+is to provide an online catalog of a small local library where users can browse available books and manage their accounts
+
+This is example has been carefully chosen b/c it can scale to to show as much or as little detail as we need, and can be used to show off
+almost any _Express_ feature. More importantly, it allows us to provide a guided path to any functionality you'll need in any website.
+
+  *  In the first few tutorial articles we'll develop a simple _browse-only_ site where users can find out what books are available.
+     These operatoins are common to almost every website: reading and displaying content from a database.
+  *  As we progress the library example naturally extends to demonstrate more advanced web features. For example we can extend
+     the library to allow more books to be created and use this to demonstate how to use forms and support user authentication.
+
+
+    
 
 
 
