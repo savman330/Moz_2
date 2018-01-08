@@ -1,0 +1,27 @@
+{
+  "name": "mozilla2",
+  "version": "1.0.0",
+  "description": "#### What is the Express development environment",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "nodemon app.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/savman330/Moz_2.git"
+  },
+  "author": "gabe larkin",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/savman330/Moz_2/issues"
+  },
+  "homepage": "https://github.com/savman330/Moz_2#readme",
+  "dependencies": {
+    "express": "^4.16.2"
+  },
+  "devDependencies": {
+    "eslint": "^4.15.0",
+    "nodemon": "^1.14.8"
+  }
+}
