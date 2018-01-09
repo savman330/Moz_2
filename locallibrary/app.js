@@ -11,6 +11,19 @@ var users = require('./routes/users');
 
 var app = express();
 
+// db setup
+const   mongoose = require("mongoose"),
+        mongoDB = 'mongodb://library_patron:1qwerty9@ds245277.mlab.com:45277/library';
+        
+mongoose.connect(mongoDB, {
+  useMongoClient: true
+});
+
+mongoose.Promise = global.Promise;
+
+const db = mongoose.connection;
+db.on('error', console.error.bind(console, 'MongoDB connection error:'));
+
 // view engine setup
 app.set('views', path.join(__dirname, 'views'));
 app.set('view engine', 'pug');
